@@ -1,0 +1,7 @@
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\bin\Debug\01-ArrayFunctionOOP.exe.config
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\bin\Debug\01-ArrayFunctionOOP.exe
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\bin\Debug\01-ArrayFunctionOOP.pdb
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\obj\Debug\01-ArrayFunctionOOP.csproj.AssemblyReference.cache
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\obj\Debug\01-ArrayFunctionOOP.csproj.CoreCompileInputs.cache
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\obj\Debug\01-ArrayFunctionOOP.exe
+C:\Users\Gurban Gurbanzada\Desktop\cs402\01-ArrayFunctionOOP\01-ArrayFunctionOOP\obj\Debug\01-ArrayFunctionOOP.pdb

@@ -137,31 +137,43 @@ namespace _01_intro
             //while (num < 1);
 
 
-            Console.WriteLine("Reqemi daxil edin");
-            string ay=Console.ReadLine();   
+            //Console.WriteLine("Reqemi daxil edin");
+            //string ay=Console.ReadLine();   
 
 
-            switch(ay) {
+            //switch(ay) {
 
-                case "1":
-                    Console.WriteLine("yanvar ayi");
-                    break;
+            //    case "1":
+            //        Console.WriteLine("yanvar ayi");
+            //        break;
 
-                case "2":
-                    Console.WriteLine("fevral ayi");
-                    break;
-                case "3":
-                    Console.WriteLine("Mart ayi");
-                    break;
-                case "4":
-                    Console.WriteLine("Aprel ayi");
-                    break;
-                default:
+            //    case "2":
+            //        Console.WriteLine("fevral ayi");
+            //        break;
+            //    case "3":
+            //        Console.WriteLine("Mart ayi");
+            //        break;
+            //    case "4":
+            //        Console.WriteLine("Aprel ayi");
+            //        break;
+            //    default:
 
-                    Console.WriteLine("daxil etdiyiniz simvola uygun ay yoxdur");
-                    break;
+            //        Console.WriteLine("daxil etdiyiniz simvola uygun ay yoxdur");
+            //        break;
 
-            }
+            //}
+
+
+
+            string deyer1=Console.ReadLine();
+            string deyer2 = Console.ReadLine();
+
+            int reqem1=Convert.ToInt32(deyer1);
+            int reqem1 = Convert.ToInt32(deyer1);
+
+
+            int netice =reqem1 +reqem2;
+
 
         }
     }

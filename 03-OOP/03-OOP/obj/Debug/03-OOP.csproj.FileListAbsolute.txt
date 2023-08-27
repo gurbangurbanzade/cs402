@@ -1,0 +1,7 @@
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\bin\Debug\03-OOP.exe.config
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\bin\Debug\03-OOP.exe
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\bin\Debug\03-OOP.pdb
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\obj\Debug\03-OOP.csproj.AssemblyReference.cache
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\obj\Debug\03-OOP.csproj.CoreCompileInputs.cache
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\obj\Debug\03-OOP.exe
+C:\Users\Gurban Gurbanzada\Desktop\cs402\03-OOP\03-OOP\obj\Debug\03-OOP.pdb

@@ -166,11 +166,11 @@ namespace _01_ArrayFunctionOOP
 
 
             string emeliyyat=Console.ReadLine();
-            //char emelhar = Convert.ToChar(emeliyyat);
+            char emelhar = Convert.ToChar(emeliyyat);
             int cem;
             int a = 5;
             int b = 3;
-            switch (emeliyyat)
+            switch (emelhar)
             {
                 case '+':
                     cem = a + b;

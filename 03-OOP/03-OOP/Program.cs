@@ -26,16 +26,22 @@ namespace _03_OOP
             //masin1.masinModel = "e39";
             //masin1.masinRengi = "blue";
             //masin1.masinIl = 1997;
-            ////masin1.masinVin = 1233456;
+            //masin1.masinVin = 1233456;
 
             //Masin masin2 = new Masin();
             //masin1.masinMarka = "mercedes";
             //masin1.masinModel = "c klass";
             //masin1.masinRengi = "black";
             //masin1.masinIl = 1998;
-            //masin1.masinVin = 12334567;
+            ////masin1.masinVin = 12334567;
 
-            //Masin masin1 = new Masin("bmw","e39","blue",1997);
+            Masin masin1 = new Masin("bmw", "e39", "blue", 1997);
+            Masin masin2 = new Masin("mercedes", "e39", "blue", 1997);
+
+            Console.WriteLine(masin1.masinMarka);
+            Console.WriteLine(masin2.masinMarka);
+
+
 
             //Console.WriteLine(masin1.masinMarka);
             ////Console.WriteLine(masin1.);
@@ -54,18 +60,18 @@ namespace _03_OOP
             //Console.WriteLine(masin2.masinMarka);
 
 
-            ElektroCar masin2 = new ElektroCar("tesla", "model 3", "gray", 2020);
+            //ElektroCar masin2 = new ElektroCar("tesla", "model 3", "gray", 2020);
 
-            Console.WriteLine(masin2.masinMarka);
+            //Console.WriteLine(masin2.masinMarka);
 
-            masin2.masiniIseSal();
-            masin2.BatareyaFaizi();
-            //masin1.BatareyaFaizi();
+            //masin2.masiniIseSal();
+            //masin2.BatareyaFaizi();
+            ////masin1.BatareyaFaizi();
 
-            Console.WriteLine("avtomobiller sonduruldu");
+            //Console.WriteLine("avtomobiller sonduruldu");
 
-            //masin1.masiniSondur();
-            masin2.masiniSondur();
+            ////masin1.masiniSondur();
+            //masin2.masiniSondur();
 
             // numuneler burada
 
@@ -87,7 +93,7 @@ namespace _03_OOP
 
             //Console.WriteLine(cem);
             //ElektroCar.MethodHaqqindaInfo();
-            Masin.MethodHaqqindaInfo();
+            //Masin.MethodHaqqindaInfo();
 
         }
     }

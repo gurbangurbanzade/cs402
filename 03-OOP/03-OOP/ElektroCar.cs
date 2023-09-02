@@ -13,7 +13,6 @@ namespace _03_OOP
         {
         }
 
-
         public void BatareyaFaizi()
         {
             Console.WriteLine("batareya 100%");

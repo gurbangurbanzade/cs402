@@ -1,24 +1,7 @@
 let express = require("express");
 let mysql = require("mysql2");
 // console.log("hello");
-const db = [
-  {
-    name: "qurban",
-    surname: "qurbanzada",
-  },
-  {
-    name: "qurban",
-    surname: "qurbanzada",
-  },
-  {
-    name: "qurban",
-    surname: "qurbanzada",
-  },
-  {
-    name: "qurban",
-    surname: "qurbanzada",
-  },
-];
+
 let app = express();
 
 let connection = mysql.createConnection({
@@ -43,7 +26,7 @@ connection.query(
     console.log(result);
     console.log(fields);
 
-    app.get("/:id", function (req, res) {
+    app.get("/", function (req, res) {
       res.send(result);
     });
   }

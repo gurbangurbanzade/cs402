@@ -35,11 +35,12 @@ let connection = mysql.createConnection({
 // });
 
 // // api get method
-connection.query("select * from student", function (err, result, fields) {
-  //   console.log(err);
-  //   console.log(result);
-  //   console.log(fields);
-  app.get("/student", function (req, res) {
+
+app.get("/student", function (req, res) {
+  connection.query("select * from student", function (err, result, fields) {
+    //   console.log(err);
+    //   console.log(result);
+    //   console.log(fields);
     res.send(result);
   });
 });
@@ -78,16 +79,21 @@ app.delete("/student/:id", (req, res) => {
 // post method
 app.post("/student/", (req, res) => {
   let obj = req.body;
-  console.log(obj);
   connection.query(
     `INSERT INTO student (ID, ad, soyad, unvanid)
     VALUES ("${obj.ID}", "${obj.ad}", "${obj.soyad}", "${obj.unvanId}")`,
     function (err, result, fields) {
-      app.get("/student", function (req, res) {
-        res.send(result);
-      });
+      //   console.log(result);
+      //   app.get("/student", function (req, res) {
+      //     res.send(result);
+      //   });
     }
   );
+  connection.query("select * from student", function (err, result, fields) {
+    //   console.log(err);
+    console.log(result);
+    res.send(result);
+  });
 });
 
 app.listen(3000);
